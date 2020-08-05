@@ -1,0 +1,30 @@
+body {
+    background: url('https://images.unsplash.com/photo-1544159465-672a2b0d5f2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+form {
+    align-items: center;
+    
+    background-color: #f0f0f5; 
+    border-radius: 8px;
+    margin: 80px auto;
+    padding: 64px;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 900;
+    color: red;
+}
+
+ul{
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
+}

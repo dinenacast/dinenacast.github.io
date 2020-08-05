@@ -1,0 +1,126 @@
+body {
+    background: url('https://images.unsplash.com/photo-1544159465-672a2b0d5f2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+form {
+    align-items: center;
+    
+    background-color: #f0f0f5; 
+    border-radius: 8px;
+    margin: 80px auto;
+    padding: 64px;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.title{
+    display: flex;
+
+    font-size: 50px;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.headerBox{
+    text-align: center;
+    justify-content: center;
+}
+
+#dinena{
+    margin-right: 5px;
+}
+
+.elencoText{
+    margin-top: 10px;
+
+    display: flex;
+
+    font-size: 10px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+.twitchButton{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background: #6441a4;
+}
+
+.youtubeButton{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background: #ee0f0f;
+
+    height: 46px;
+    width: 46px;
+}
+
+.nextPodcast{
+    margin-top: 50px;
+}
+
+.youtubeButton:hover {
+    opacity: .5;
+}
+
+.twitchButton:hover {
+    opacity: .5;
+}
+
+.podButtons{
+    margin-left: 5px;
+}
+
+#por{
+    margin-right: 5px;
+}
+
+#cast{
+    color: red;
+}
+
+#elenco{
+    color: red;
+}
+
+.comoParticipar{
+    margin-top: 50px;
+}
+
+#participarTitle{
+    color: red;
+}
+
+#podcastLegenda{
+    color: red;
+    font-weight: bolder;
+}
+
+img{
+    border-radius: 8px;
+}
+
+a{
+    font-size: 20px;
+    font-family: 'Archivo', sans-serif;
+
+    text-decoration: none;
+
+    color: red;
+}
