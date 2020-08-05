@@ -27,4 +27,21 @@ function enviarFeedback() {
     thankFeedbackName.innerHTML = ` ${nome}`
 
     console.log(`${nome} disse: ${feedbackText}`)
+
+    var feedbackInfo = {
+        nome: nome,
+        texto: feedbackText
+    }
+
+    var fetchConfig = {
+        headers: {'Content-Type': 'application/json'},
+        method: 'post',
+        body: JSON.stringify(fetchConfig)
+    }
+
+    fetch('https://dinenacastapi.herokuapp.com/feedback', fetchConfig)
+    .then(res => res.json())
+    .then(retorno => {
+        console.log(retorno)
+    })
 }
