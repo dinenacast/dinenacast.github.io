@@ -69,9 +69,51 @@
             <a href="./help.html">Como participar?</a>
         </div>
 
+        <div class="feedback-box">
+            <h2>Gostou de algum podcast? Deixe seu feedback!</h2>
+            <button class="feedButtonAppear" onclick="feedbackAppear()" type="button">Feedback</button>
+            <p id='peopleStatus'>Faça como Igor e deixe seu feedback aqui</p>
+        </div>
+
         <div class="elencoText">
             <h2 id='por'>Por: <h2 id='elenco'>Igor Duca, Henrique Lopes e Pedro Ryan</h2></h2>
         </div>
+
+        <div class="bg-modal" id='bg-modal'>
+            <div class="modal-content">
+                <div class="close" onclick="closePopup()">+</div>
+
+                <div class="feebackBoxTitle">
+                    <h1 id='feedbackBoxTitleFeedbackH1'>Deixe seu <h1 class="redText" id="feedbackBoxTitleFeedback">feedback!</h1></h1>
+                    <h1 id="thankFeedback" hidden>Obrigado, <h1 id='thankFeedbackName' class="redText" hidden>Nome</h1></h1>
+                </div>
+
+                <div class="nome">
+                    <input type="text" id="nome" placeholder="Nome ou apelido">
+                </div>
+
+                <div class="texto">
+                    <textarea name="" id="feedbackText" cols="30" rows="10" placeholder="Digite seu comentário aqui!"></textarea>
+                </div>
+
+                <button class="enviarFeedback" onclick="enviarFeedback()" type="button" id="enviarFeedbackBtn">Enviar</button>
+            </div>
+        </div>
+
+        <script>
+            function feedbackAppear() {
+                var feedbackBox = document.getElementById('bg-modal')
+
+                feedbackBox.style.display = 'flex'
+            }
+
+            function closePopup() {
+                var feedbackBox = document.getElementById('bg-modal')
+
+                feedbackBox.style.display = 'none'
+            }
+        </script>
+
     </form>
 </body>
 </html>
