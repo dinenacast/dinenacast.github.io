@@ -1,7 +1,7 @@
 function alertTw() {
-    alert('Isso levará para a Twitch!')
+    window.open('https://www.twitch.tv/dinenacast')
 }
 
 function alertYt() {
-    alert('Isso levará para o Youtube!')
+    window.open('https://www.youtube.com/channel/UCPkZrRC-CiMrlo-JaciefBg')
 }
