@@ -99,8 +99,10 @@ h1 {
     color: red;
 }
 
-.comoParticipar{
+.possiveisDuvidas{
     margin-top: 50px;
+
+    display: inline;
 }
 
 #participarTitle{
@@ -250,4 +252,26 @@ a{
 
   #thankFeedbackName {
       margin-left: 5px;
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+  #meusCreditos {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      font-size: 15px;
+      font-weight: bold;
+
+      display: flex;
+  }
+
+  #meuNome {
+      font-size: 15px;
+
+      margin-left: 5px;
+      font-weight: bold;
   }
