@@ -52,36 +52,11 @@ h1 {
     box-sizing: border-box;
 }
 
-.twitchButton{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    background: #6441a4;
-}
-
-.youtubeButton{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    background: #ee0f0f;
-
-    height: 46px;
-    width: 46px;
-}
 
 .nextPodcast{
     margin-top: 50px;
 }
 
-.youtubeButton:hover {
-    opacity: .5;
-}
-
-.twitchButton:hover {
-    opacity: .5;
-}
 
 .podButtons{
     margin-left: 5px;
@@ -101,8 +76,6 @@ h1 {
 
 .possiveisDuvidas{
     margin-top: 50px;
-
-    display: inline;
 }
 
 #participarTitle{
@@ -168,7 +141,7 @@ a{
 
   .modal-content{
     width: 500px;
-    height: 460px;
+    height: 350px;
     background-color: white;
     opacity: 1;
     border-radius: 4px;
@@ -274,4 +247,93 @@ a{
 
       margin-left: 5px;
       font-weight: bold;
+  }
+
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 500px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 8px;
+
+    margin-left: 290px;
+    margin-top: 480px;
+  }
+
+  .pod-container:hover .overlay {
+    opacity: .7;
+  }
+
+  .podButton {
+    height: 25px;
+    width: 25px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .twitchButton {
+      margin-left: 50px;
+  }
+
+  .buttons {
+      display: flex;
+  }
+
+  .overlay-2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 500px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 8px;
+
+    margin-left: 290px;
+    margin-top: 896px;
+  }
+
+  .pod-container-2 {
+      margin-top: 50px;
+  }
+
+  .pod-container-2:hover .overlay-2 {
+    opacity: .7;
+  }
+
+  .podButton {
+    height: 25px;
+    width: 25px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  #podTitle {
+      color: red;
+  }
+
+  .twitchAlertText {
+      color: red;
+
+      font-size: 15px;
+      font-weight: bolder;
   }

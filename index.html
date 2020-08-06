@@ -23,44 +23,38 @@
 
         </div>
 
-        <div class="recentPodcast">
+        <h1 id='podTitle'>Próximo podcast:</h1>
 
-            <h2>Próximo podcast:</h2>
-
-            <img src="./assets/podcasts/thumbnails/EduardoDuca.gif" alt="" height="250px" width="500px">
-
-            <div class="podButtons">
-                <a href="">
-                    <img src="./assets/icons/twitch.png" alt="" class="twitchButton" onclick="alertTw()">
-                </a>
+        <div class="pod-container">
+            <img src="./assets/podcasts/thumbnails/EduardoDuca.gif" alt="" height="300px" width="500px">
+            <div class="overlay">
+                <div class="buttons">
+                    <a href="https://www.youtube.com/channel/UCPkZrRC-CiMrlo-JaciefBg">
+                        <img src="./assets/icons/youtube.png" alt="" aria-hidden="true" class="podButton">
+                    </a>
     
-                <a href="">
-                    <img src="./assets/icons/youtube.png" alt="" class="youtubeButton" onclick="alertYt()">
-                </a>
+                    <a href="">
+                        <img src="./assets/icons/twitch.png" alt="" class="podButton twitchButton" onclick="twitchAlert()">
+                    </a>
+                </div>
             </div>
-
-            <h3 id='podcastLegenda'>Podcast com Eduardo Duca - Irá acontecer no dia 07/08/2020</h3>
         </div>
 
-      
+        <h1 id='podTitle'>Podcast mais recente:</h1>
 
-        <div class="nextPodcast">
-
-            <h2>Podcast mais recente:</h2>
-
-            <img src="./assets/podcasts/thumbnails/EduardoDuca.gif" alt="" height="250px" width="500px">
-
-            <div class="podButtons">
-                <a href="">
-                    <img src="./assets/icons/twitch.png" alt="" class="twitchButton" onclick="alertTw()">
-                </a>
+        <div class="pod-container-2">
+            <img src="./assets/podcasts/thumbnails/EduardoDuca.gif" alt="" height="300px" width="500px">
+            <div class="overlay-2">
+                <div class="buttons">
+                    <a href="https://www.youtube.com/channel/UCPkZrRC-CiMrlo-JaciefBg">
+                        <img src="./assets/icons/youtube.png" alt="" aria-hidden="true" class="podButton">
+                    </a>
     
-                <a href="">
-                    <img src="./assets/icons/youtube.png" alt="" class="youtubeButton" onclick="alertYt()">
-                </a>
+                    <a href="" onclick="twitchAlert()">
+                        <img src="./assets/icons/twitch.png" alt="" class="podButton twitchButton">
+                    </a>
+                </div>
             </div>
-
-            <h3 id='podcastLegenda'>Podcast com Eduardo Duca - Aconteceu no dia: 07/08/2020</h3>
         </div>
 
         <div class="possiveisDuvidas">
@@ -72,38 +66,30 @@
             </li>
         </div>
 
-        <!-- <div class="feedback-box">
-            <h2>Gostou de algum podcast? Deixe seu feedback!</h2>
-            <button class="feedButtonAppear" onclick="feedbackAppear()" type="button">Feedback</button>
-            <p id='peopleStatus'>Faça como Igor e deixe seu feedback aqui</p>
-        </div> -->
-
         <div class="elencoText">
             <h2 id='por'>Por: <h2 id='elenco'>Igor Duca, Henrique Lopes e Pedro Ryan</h2></h2>
         </div>
 
         <h2 id='meusCreditos'>Site desenvolvido por <a href="https://github.com/IgorDuca" id='meuNome'>Igor Duca</a></h2>
 
-        <!-- <div class="bg-modal" id='bg-modal'>
+        <div class="bg-modal" id='bg-modal'>
             <div class="modal-content">
                 <div class="close" onclick="closePopup()">+</div>
 
-                <div class="feebackBoxTitle">
-                    <h1 id='feedbackBoxTitleFeedbackH1'>Deixe seu <h1 class="redText" id="feedbackBoxTitleFeedback">feedback!</h1></h1>
-                    <h1 id="thankFeedback" hidden>Obrigado, <h1 id='thankFeedbackName' class="redText" hidden>Nome</h1></h1>
+                <div class="twitchAlert">
+                    <h1>Ainda não estamos ao vivo!</h1>
+
+                    <div class="twitchAlertText">
+                        <h2>Nós ainda não começamos a transmitir o nosso podcast na Twitch, mas, planejamos começar a transmissão ao vivo a partir do episódio #5</h2>
+                        <h2>Fique ligado no nosso canal do YouTube! Pois lá você encontrará os podcasts por enquanto que ainda não os colocamos ao vivo!</h2>
+                    </div>
+
+                    <h3>Estou te esperando lá no YouTube!</h3>
+                    <h3>⚡ Igor Duca ⚡</h3>
                 </div>
 
-                <div class="nome">
-                    <input type="text" id="nome" placeholder="Nome ou apelido">
-                </div>
-
-                <div class="texto">
-                    <textarea name="" id="feedbackText" cols="30" rows="10" placeholder="Digite seu comentário aqui!"></textarea>
-                </div>
-
-                <button class="enviarFeedback" onclick="enviarFeedback()" type="button" id="enviarFeedbackBtn">Enviar</button>
             </div>
-        </div> -->
+        </div>
 
         <script>
             function feedbackAppear() {
