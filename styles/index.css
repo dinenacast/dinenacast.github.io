@@ -5,7 +5,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-form {
+.content {
     align-items: center;
     
     background-color: #f0f0f5; 
@@ -264,7 +264,7 @@ a{
     border-radius: 8px;
 
     margin-left: 290px;
-    margin-top: 480px;
+    margin-top: 785px;
   }
 
   .pod-container:hover .overlay {
@@ -282,12 +282,8 @@ a{
     -ms-transform: translate(-50%, -50%);
   }
 
-  .twitchButton {
+  .spotifyIcon {
       margin-left: 50px;
-  }
-
-  .buttons {
-      display: flex;
   }
 
   .overlay-2{
@@ -305,7 +301,7 @@ a{
     border-radius: 8px;
 
     margin-left: 290px;
-    margin-top: 896px;
+    margin-top: 1203px;
   }
 
   .pod-container-2 {
@@ -336,4 +332,10 @@ a{
 
       font-size: 15px;
       font-weight: bolder;
+
+  }
+
+
+  .spotifyIcon {
+      margin-right: 15px;
   }
