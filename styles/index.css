@@ -1,8 +1,7 @@
 body {
-    background: url('https://i.imgur.com/w4sbl2W.png');
-
-    background-size: cover;
+    background: url('https://media.giphy.com/media/WoR3wMdCAHd2r8y19d/giphy.gif');
     font-family: 'Lato', sans-serif;
+    background-size: cover;
 }
 
 .content {
@@ -338,4 +337,24 @@ a{
 
   .spotifyIcon {
       margin-right: 15px;
+  }
+
+  #appButton{
+    width: 260px;
+    height: 56px;
+    margin-top: 40px;
+    margin-left: 250px;
+    background-color: #f55742;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 400ms;
+    border: 0;
+    transition: .5s;
+  }
+
+  #appButton:hover{
+      height: 70px;
   }
