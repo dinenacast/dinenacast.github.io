@@ -19,7 +19,7 @@ function downloadApp() {
 }
 
 function android() {
-    window.open('https://expo.io/artifacts/14648176-ad87-4cc5-876c-a43f28596c95')
+    window.open('http://download1327.mediafire.com/svs2k068dvog/86kbj74oq9nl2gq/DiNena+Cast.apk')
 }
 
 function ios() {
