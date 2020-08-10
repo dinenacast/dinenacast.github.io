@@ -1,0 +1,37 @@
+body {
+    background: url('https://media.giphy.com/media/26FPKhUtNG3TW74f6/giphy.gif');
+    background-size: cover;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    align-items: center;
+    
+    background-color: #f0f0f5; 
+    border-radius: 8px;
+    margin: 80px auto;
+    padding: 64px;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 260px;
+    height: 56px;
+    margin-top: 40px;
+    margin-left: 250px;
+    background-color: #f55742;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 400ms;
+    border: 0;
+    transition: .5s;
+}
+
+button:hover{
+    height: 70px;
+}

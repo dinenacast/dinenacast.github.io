@@ -15,5 +15,13 @@ function twitchAlert() {
 }
 
 function downloadApp() {
-    window.open('https://download1327.mediafire.com/g5wxu43iy3zg/x3s6i97m0a2pxjy/DC-be55ab5822e04bcbb0c037f1ce29e0c2-signed.apk')
+    window.open('https://dinenacast.github.io/appdownload.html')
+}
+
+function android() {
+    window.open('https://expo.io/artifacts/14648176-ad87-4cc5-876c-a43f28596c95')
+}
+
+function ios() {
+    alert('Alô amig@ que usa IOS, por enquanto estou tendo problemas para upar o aplicativo no seu iPhone, mas, quando conseguir, irei te avisar no insta do DiNena!')
 }
